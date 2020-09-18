@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #333 ;
+    color:white;
+    
+}
+
+.title{
+    padding-left:20px;
+    padding-top:2px;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    padding-bottom:7px;
+}
+.links{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+.links li{
+    padding: 5px 20px;
+}
