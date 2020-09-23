@@ -6,6 +6,7 @@ import MainHeader from "./components/MainHeader/MainHeader";
 import Landing from "./components/Landing/Landing";
 import Join from "./components/Join/Join";
 import Host from "./components/Host/Host";
+import MeetingRoom from "./components/MeetingRoom/MeetingRoom";
 import {
   Route,
   Link,
@@ -24,6 +25,7 @@ function App() {
          <Route path="/" component={Landing} exact/>
          <Route path="/join" component={Join} exact/>
          <Route path="/host" component={Host} exact/>
+         <Route path="/room/:name" component={MeetingRoom} exact/>
         
       </Switch>
   
